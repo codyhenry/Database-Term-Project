@@ -69,8 +69,9 @@ input{
 }
 
 textarea{
-	resize: vertical;
+	resize: both;
 	max-height: 150px;
+	width: 200px;
 }
 
 input, textarea{
@@ -128,3 +129,7 @@ ul li a{
 ul li a:hover{
 	color: gold;
 }
+
+
+
+

@@ -24,11 +24,10 @@
 			<input type="text" name="last" placeholder="Last Name">
 			<input type="text" name="email" placeholder="E-mail">
 			<br><input type="password" name="password" placeholder="password">
-			<br><select name="university">
-				<option value="none">None</option>
-				<option value="uni1">UCF</option>
-				<option value="uni2">USF</option>
-				<option value="uni3">FAU</option>
+			<br><select name="security">
+				<option value="student">Student</option>
+				<option value="admin">Admin</option>
+				<option value="superadmin">Super Admin</option>
 				</select>
 			<br><button type="submit" name="submit">Signup</button>
 		</form>
